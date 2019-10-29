@@ -32,8 +32,8 @@ function wakeDog(dogName, dogBreed) {
 
     function exerciseDog(dogName,dogBreed) {
    let newArray = []
-      let i = 0;
-    for (i = 0; i < step.length; i++) {
+   let i = 0
+    for (i = 0; i < routine.length; i++) {
           let step = routine[i];
        newArray.push(step(dogName, dogBreed));
     }
